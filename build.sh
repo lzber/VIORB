@@ -33,7 +33,7 @@ cd ..
 
 echo "Build ROS node ..."
 
-cd Examples/ROS/ORB_VIO
+cd Examples/ROS/ORB_VIO-RT
 mkdir build
 cd build
 cmake .. -DROS_BUILD_TYPE=Release
